@@ -24,9 +24,9 @@
   - It represents the contents of the HyperMesh binary file and can contain part assemblies, parts, and components.
 
 References:
-  - https://help.altair.com/hwdesktop/hwx/topics/pre_processing/entities/components_r.htm
-  - https://help.altair.com/hwdesktop/hwx/topics/pre_processing/model_build_and_assembly/part_assemblies_and_parts_organize_t.htm
-  - https://help.altair.com/hwdesktop/hwx/topics/pre_processing/model_build_and_assembly/part_and_part_assembly_about_c.htm
+  - <https://help.altair.com/hwdesktop/hwx/topics/pre_processing/entities/components_r.htm>
+  - <https://help.altair.com/hwdesktop/hwx/topics/pre_processing/model_build_and_assembly/part_assemblies_and_parts_organize_t.htm>
+  - <https://help.altair.com/hwdesktop/hwx/topics/pre_processing/model_build_and_assembly/part_and_part_assembly_about_c.htm>
 
 ---
 
@@ -48,7 +48,7 @@ References:
   - An environment where you can define both **position** and **movement** of a complete product or system
 
 References:
-  - https://superdope.onshape.com/help/Content/Glossary/glossary.htm?tocpath=_____22
+  - <https://superdope.onshape.com/help/Content/Glossary/glossary.htm?tocpath=_____22>
 
 ---
 
@@ -89,8 +89,8 @@ References:
   ![Alt text](../img/bom.png "Bill of Materials")
 
 References:
-  - https://en.wikipedia.org/wiki/Product_lifecycle
-  - https://www.filetypeadvisor.com/extension/plmxml
-  - https://en.wikipedia.org/wiki/Product_data_management
-  - https://en.wikipedia.org/wiki/Metadata
-  - https://en.wikipedia.org/wiki/Bill_of_materials
+  - <https://en.wikipedia.org/wiki/Product_lifecycle>
+  - <https://www.filetypeadvisor.com/extension/plmxml>
+  - <https://en.wikipedia.org/wiki/Product_data_management>
+  - <https://en.wikipedia.org/wiki/Metadata>
+  - <https://en.wikipedia.org/wiki/Bill_of_materials>
