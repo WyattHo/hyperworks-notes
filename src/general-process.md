@@ -41,6 +41,8 @@ References:
   - A single closed solid body created by features
 - Instance 
   - A part, sketch, surface, or subassembly used in an Assembly
+- Group
+  - A collection of related parts in an assembly that move as one. A tool used to create a group
 - Subassembly
   - An assembly used within another assembly
 - Assembly
