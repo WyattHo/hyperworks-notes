@@ -104,16 +104,41 @@
 
 ---
 
-# Process in Abaqus
+# Analysis Process
+
+## Process in Abaqus
 <p align="center">
   <img src="../img/process-abaqus.png" width="1200" class="center">
 <p>
 
 ---
 
-# Process in Abaqus vs Process in HyperWorks
+## Process in Abaqus vs Process in HyperWorks
 <p align="center">
   <img src="../img/process-abaqus-vs-hyperworks.png" width="1200" class="center">
+<p>
+
+---
+
+## Import the model from Onshape to HyperWorks
+1. In **Onshape**, Right click on the tab for the specific assembly, then click **Export...**
+2. Select **PARASOLID**
+3. Click **Export**
+4. Go to HyperWorks. **File** > **Import...** > **Geometry Model**
+5. Select the model from Onshape and click **Open**
+6. Select the desired unit system like **MMKS**
+7. Click **Import**
+
+<p align="center">
+  <img src="../img/export-parasolid.png" width="800" class="center">
+<p>
+
+<p align="center">
+  <img src="../img/import-x_t.png" width="800" class="center">
+<p>
+
+<p align="center">
+  <img src="../img/select-unit-system.png" width="800" class="center">
 <p>
 
 ---
