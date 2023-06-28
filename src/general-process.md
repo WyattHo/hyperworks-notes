@@ -38,7 +38,10 @@
 
 ## Bill of Materials (BOM)
 - BOM is a list of the raw materials, sub-assemblies, intermediate assemblies, sub-components, parts, and the quantities of each needed to manufacture an end product
-![Alt text](../img/bom.png "Bill of Materials")
+
+<p align="center">
+  <img src="../img/bom.png" width="600" class="center">
+<p>
 
 ---
 
@@ -102,11 +105,15 @@
 ---
 
 # Process in Abaqus
-![Alt text](../img/process-abaqus.png "Process in Abaqus")
+<p align="center">
+  <img src="../img/process-abaqus.png" width="1200" class="center">
+<p>
 
 ---
 
 # Process in Abaqus vs Process in HyperWorks
-![Alt text](../img/process-abaqus-vs-hyperworks.png "Process in Abaqus vs Process in HyperWorks")
+<p align="center">
+  <img src="../img/process-abaqus-vs-hyperworks.png" width="1200" class="center">
+<p>
 
 ---
