@@ -2,10 +2,10 @@
 
 ## Product Lifecycle Management (PLM)
 - The process of managing the entire lifecycle of a product, including:
-  1. Conceive (Specification, Concept design)
-  2. Design (Detailed design, Validation and analysis)
-  3. Realise (Manufacture, Quality control)
-  4. Service (Sell, Maintain, Support, Dispose)
+  1. Conceive (specification, concept design)
+  2. Design (detailed design, validation and analysis)
+  3. Realise (manufacture, quality control)
+  4. Service (sell, maintain, support, dispose)
 - The core of PLM is 
   1. The creation and central management of all **product data** and 
   2. The technology used to access the information and knowledge
