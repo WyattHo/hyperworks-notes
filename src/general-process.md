@@ -1,40 +1,48 @@
-# Terminologies about Product Data
+# Prerequisite - Terminologies about Product Data
 
-- Product Lifecycle Management (PLM)
-  - The process of managing the entire lifecycle of a product, including:
-    1. Conceive (Specification, Concept design)
-    2. Design (Detailed design, Validation and analysis)
-    3. Realise (Manufacture, Quality control)
-    4. Service (Sell, Maintain, Support, Dispose)
-  - The core of PLM is 
-    1. The creation and central management of all **product data** and 
-    2. The technology used to access the information and knowledge
-  - `*.plmxml` represents the Siemens Product Lifecycle Management (PLM) XML file format
+## Product Lifecycle Management (PLM)
+- The process of managing the entire lifecycle of a product, including:
+  1. Conceive (Specification, Concept design)
+  2. Design (Detailed design, Validation and analysis)
+  3. Realise (Manufacture, Quality control)
+  4. Service (Sell, Maintain, Support, Dispose)
+- The core of PLM is 
+  1. The creation and central management of all **product data** and 
+  2. The technology used to access the information and knowledge
+- `*.plmxml` represents the Siemens Product Lifecycle Management (PLM) XML file format
 
-- Product Data Management (PDM)
-  - A business function within product lifecycle management (PLM)
-  - PDM serves as a **central knowledge repository**. The information being stored and managed will include engineering data such as
-    1. Computer-aided design (CAD) models
-    2. Drawings
-    3. Associated documents
-    4. **Metadata** (such as the owner of a file and the release status of the components)
-  - PDM will 
-    1. control check-in and check-out of the product data to multi-user
-    2. carry out engineering change management and release control
-    3. build and manipulate the product structure **bill of materials (BOM)** for assemblies
+---
 
-- Metadata
-  - Metadata means data about data. Some examples include
-    1. Time and date of creation
-    2. Creator or author of the data
-    3. File size
-    4. ...
+## Product Data Management (PDM)
+- A business function within product lifecycle management (PLM)
+- PDM serves as a **central knowledge repository**. The information being stored and managed will include engineering data such as
+  1. Computer-aided design (CAD) models
+  2. Drawings
+  3. Associated documents
+  4. **Metadata** (such as the owner of a file and the release status of the components)
+- PDM will 
+  1. control check-in and check-out of the product data to multi-user
+  2. carry out engineering change management and release control
+  3. build and manipulate the product structure **bill of materials (BOM)** for assemblies
 
-- Bill of Materials (BOM)
-  - BOM is a list of the raw materials, sub-assemblies, intermediate assemblies, sub-components, parts, and the quantities of each needed to manufacture an end product
-  ![Alt text](../img/bom.png "Bill of Materials")
+---
 
-References:
+## Metadata
+- Metadata means data about data. Some examples include
+  1. Time and date of creation
+  2. Creator or author of the data
+  3. File size
+  4. ...
+
+---
+
+## Bill of Materials (BOM)
+- BOM is a list of the raw materials, sub-assemblies, intermediate assemblies, sub-components, parts, and the quantities of each needed to manufacture an end product
+![Alt text](../img/bom.png "Bill of Materials")
+
+---
+
+## References:
   - <https://en.wikipedia.org/wiki/Product_lifecycle>
   - <https://www.filetypeadvisor.com/extension/plmxml>
   - <https://en.wikipedia.org/wiki/Product_data_management>
@@ -43,7 +51,9 @@ References:
 
 ---
 
-# CAD Hierarchy
+# Model Hierarchy
+
+## CAD Hierarchy
 - Feature
   - The operations that are used to build **parts**, such as 
     - Extrude
@@ -62,12 +72,9 @@ References:
   - A collection of instances of parts, sketches, surfaces, or subassemblies
   - An environment where you can define both **position** and **movement** of a complete product or system
 
-References:
-  - <https://superdope.onshape.com/help/Content/Glossary/glossary.htm?tocpath=_____22>
-
 ---
 
-# CAE Hierarchy
+## CAE Hierarchy
 - Components
   - Components collect and organize points, lines, surfaces, solids, elements and connectors
   - A component can be assigned **a property or material**, that assignment is applied to all elements within that component
@@ -84,7 +91,10 @@ References:
   - The model is the root of the hierarchy
   - It represents the contents of the HyperMesh binary file and can contain part assemblies, parts, and components.
 
-References:
+---
+
+## References:
+  - <https://superdope.onshape.com/help/Content/Glossary/glossary.htm?tocpath=_____22>
   - <https://help.altair.com/hwdesktop/hwx/topics/pre_processing/entities/components_r.htm>
   - <https://help.altair.com/hwdesktop/hwx/topics/pre_processing/model_build_and_assembly/part_assemblies_and_parts_organize_t.htm>
   - <https://help.altair.com/hwdesktop/hwx/topics/pre_processing/model_build_and_assembly/part_and_part_assembly_about_c.htm>
