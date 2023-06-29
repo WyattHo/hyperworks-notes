@@ -40,7 +40,7 @@
 - BOM is a list of the raw materials, sub-assemblies, intermediate assemblies, sub-components, parts, and the quantities of each needed to manufacture an end product
 
 <p align="center">
-  <img src="../img/bom.png" width="600" class="center">
+  <img src="../img/prerequisite/bom.png" width="600">
 <p>
 
 ---
@@ -108,14 +108,14 @@
 
 ## Process in Abaqus
 <p align="center">
-  <img src="../img/process-abaqus.png" width="1200" class="center">
+  <img src="../img/process-schema/process-abaqus.png" width="1200">
 <p>
 
 ---
 
 ## Process in Abaqus vs Process in HyperWorks
 <p align="center">
-  <img src="../img/process-abaqus-vs-hyperworks.png" width="1200" class="center">
+  <img src="../img/process-schema/process-abaqus-vs-hyperworks.png" width="1200">
 <p>
 
 ---
@@ -130,9 +130,9 @@
 7. Click **Import**
 
 <p align="center">
-  <img src="../img/export-parasolid.png" width="800" class="center">
-  <img src="../img/import-x_t.png" width="800" class="center">
-  <img src="../img/select-unit-system.png" width="800" class="center">
+  <img src="../img/import-model/export-parasolid.png" width="800">
+  <img src="../img/import-model/import-x_t.png" width="800">
+  <img src="../img/import-model/select-unit-system.png" width="800">
 <p>
 
 ---
@@ -144,11 +144,11 @@
 4. Click Analyze Ribbon > Constraints. To assign the BC (SPC) to the independent node of the RBE2.
 
 <p align="center">
-  <img src="../img/create-bc/create-loadcollector.png" width="800" class="center">
-  <img src="../img/create-bc/naming-loadcollector.png" width="800" class="center">
-  <img src="../img/create-bc/create-rbe2.png" width="800" class="center">
-  <img src="../img/create-bc/assign-spc.png" width="800" class="center">
-  <img src="../img/create-bc/create-bc-completed.png" width="800" class="center">
+  <img src="../img/create-bc/create-loadcollector.png" width="800">
+  <img src="../img/create-bc/naming-loadcollector.png" width="800">
+  <img src="../img/create-bc/create-rbe2.png" width="800">
+  <img src="../img/create-bc/assign-spc.png" width="800">
+  <img src="../img/create-bc/create-bc-completed.png" width="800">
 <p>
 
 ---
@@ -160,10 +160,10 @@
 
 
 <p align="center">
-  <img src="../img/create-load/create-loadcollector.png" width="800" class="center">
-  <img src="../img/create-load/naming-loadcollector.png" width="800" class="center">
-  <img src="../img/create-load/create-pressure.png" width="800" class="center">
-  <img src="../img/create-load/create-load-completed.png" width="800" class="center">
+  <img src="../img/create-load/create-loadcollector.png" width="800">
+  <img src="../img/create-load/naming-loadcollector.png" width="800">
+  <img src="../img/create-load/create-pressure.png" width="800">
+  <img src="../img/create-load/create-load-completed.png" width="800">
 <p>
 
 ---
@@ -176,8 +176,8 @@
 
 
 <p align="center">
-  <img src="../img/set-analysis/create-loadstep.png" width="800" class="center">
-  <img src="../img/set-analysis/set-loadstep.png" width="800" class="center">
-  <img src="../img/set-analysis/create-output.png" width="800" class="center">
-  <img src="../img/set-analysis/assign-strain-output.png" width="800" class="center">
+  <img src="../img/set-analysis/create-loadstep.png" width="800">
+  <img src="../img/set-analysis/set-loadstep.png" width="800">
+  <img src="../img/set-analysis/create-output.png" width="800">
+  <img src="../img/set-analysis/assign-strain-output.png" width="800">
 <p>
