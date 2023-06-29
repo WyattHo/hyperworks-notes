@@ -165,3 +165,19 @@
   <img src="../img/create-load/create-pressure.png" width="800" class="center">
   <img src="../img/create-load/create-load-completed.png" width="800" class="center">
 <p>
+
+---
+
+## The Basic of Setting an Analysis
+1. Right click on the Model Browser > Create > Load Step, then a **subcase** would be created.
+2. Naming the subcae and assign its **analysis type**, **BCs** and **loads**.
+3. Right click on the Model Browser > Create > Cards > Output, then a **GLOBAL_OUTPUT_REQUEST** card would be created.
+4. Activate the **STRAIN** item. Normally, stress and displacement are default output.
+
+
+<p align="center">
+  <img src="../img/set-analysis/create-loadstep.png" width="800" class="center">
+  <img src="../img/set-analysis/set-loadstep.png" width="800" class="center">
+  <img src="../img/set-analysis/create-output.png" width="800" class="center">
+  <img src="../img/set-analysis/assign-strain-output.png" width="800" class="center">
+<p>
