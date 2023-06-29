@@ -27,7 +27,7 @@
 
 <p align="center">
   <img src="../img/midmesh/imprint-a.png" width="800">
-  <img src="../img/midmesh/imprint-b.png" width="800">
   <img src="../img/midmesh/imprint-a-result.png" width="800">
+  <img src="../img/midmesh/imprint-b.png" width="800">
   <img src="../img/midmesh/imprint-b-result.png" width="800">
 <p>
