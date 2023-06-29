@@ -10,6 +10,8 @@
   <img src="../img/midmesh/midmesh-result.png" width="800">
 <p>
 
+---
+
 ## Repair Omitted Region
 1. Click Midmesh Ribbon > Create Midedge. Select nodes and guide to create a midmesh boundary.
 2. Click Midmesh Ribbon > Repair/Fill. Select the enclosed boundary to fill the region with mesh.
@@ -19,6 +21,8 @@
   <img src="../img/midmesh/fill-face.png" width="800">
   <img src="../img/midmesh/fill-completed.png" width="800">
 <p>
+
+---
 
 ## Repair Overfilled Region
 1. Click Midmesh Ribbon > Edit Topology. Select line geometry to imprint the midmesh.
@@ -31,3 +35,24 @@
   <img src="../img/midmesh/imprint-b.png" width="800">
   <img src="../img/midmesh/imprint-b-result.png" width="800">
 <p>
+
+---
+
+# Screw Settings
+
+## Rebuild Elements for Washers
+
+<p align="center">
+  <img src="../img/screws/rebuild-washer.png" width="800">
+  <img src="../img/screws/rebuild-parameters.png" width="800">
+  <img src="../img/screws/rebuild-result.png" width="800">
+<p>
+
+---
+
+## Use RBE2 to Represent Screws
+
+<p align="center">
+  <img src="../img/screws/rbe2-screw.png" width="800">
+<p>
+
