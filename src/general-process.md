@@ -131,14 +131,21 @@
 
 <p align="center">
   <img src="../img/export-parasolid.png" width="800" class="center">
-<p>
-
-<p align="center">
   <img src="../img/import-x_t.png" width="800" class="center">
-<p>
-
-<p align="center">
   <img src="../img/select-unit-system.png" width="800" class="center">
 <p>
 
 ---
+
+## The basic of creating boundary conditions
+1. Right click on the Model Browser > Create > Load Collector
+2. Naming **SPC** for this Load Collector conventionally
+3. Click Model Ribbon > Rigids. To create RBE2 for the nodes with the same BC.
+4. Click Analyze Ribbon > Constraints. To assign the BC (SPC) to the independent node of the RBE2.
+
+<p align="center">
+  <img src="../img/create-bc/create-loadcollector.png" width="800" class="center">
+  <img src="../img/create-bc/naming-loadcollector.png" width="800" class="center">
+  <img src="../img/create-bc/create-rbe2.png" width="800" class="center">
+  <img src="../img/create-bc/assign-spc.png" width="800" class="center">
+<p>
