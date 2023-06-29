@@ -137,10 +137,10 @@
 
 ---
 
-## The basic of creating boundary conditions
+## The Basic of Creating Boundary Conditions
 1. Right click on the Model Browser > Create > Load Collector
 2. Naming **SPC** for this Load Collector conventionally
-3. Click Model Ribbon > Rigids. To create RBE2 for the nodes with the same BC.
+3. Click Model Ribbon > Rigids. To create RBE2 for the nodes with the same BC
 4. Click Analyze Ribbon > Constraints. To assign the BC (SPC) to the independent node of the RBE2.
 
 <p align="center">
@@ -148,4 +148,20 @@
   <img src="../img/create-bc/naming-loadcollector.png" width="800" class="center">
   <img src="../img/create-bc/create-rbe2.png" width="800" class="center">
   <img src="../img/create-bc/assign-spc.png" width="800" class="center">
+  <img src="../img/create-bc/create-bc-completed.png" width="800" class="center">
+<p>
+
+---
+
+## The Basic of Creating Loads
+1. Right click on the Model Browser > Create > Load Collector
+2. Naming **Load** for this Load Collector conventionally
+3. Click Analyze Ribbon > Loads (Pressures). To create pressure on the specific entities with specific magnitude.
+
+
+<p align="center">
+  <img src="../img/create-load/create-loadcollector.png" width="800" class="center">
+  <img src="../img/create-load/naming-loadcollector.png" width="800" class="center">
+  <img src="../img/create-load/create-pressure.png" width="800" class="center">
+  <img src="../img/create-load/create-load-completed.png" width="800" class="center">
 <p>
