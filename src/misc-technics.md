@@ -63,3 +63,17 @@
 <p>
 
 ---
+
+# Create 2D Elements on Solids
+1. Click Validate Ribbon > Faces
+2. Choose **elems** as the target entity
+3. Select the solid elements
+4. Click **find faces**
+5. A new component with 2D elements enclosing the solids created
+
+<p align="center">
+  <img src="../img/create2d/find-faces.png" width="800">
+  <img src="../img/create2d/2d-elemts-completed.png" width="800">
+<p>
+
+---
