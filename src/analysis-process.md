@@ -1,11 +1,9 @@
-# General Analysis Process
+# Schema of General Process
 
 ## Process in Abaqus
 <p align="center">
   <img src="../img/process-schema/process-abaqus.png" width="1200">
 <p>
-
----
 
 ## Process in Abaqus vs Process in HyperWorks
 <p align="center">
@@ -13,6 +11,7 @@
 <p>
 
 ---
+# Step by Step
 
 ## Import the model from Onshape to HyperWorks
 1. In **Onshape**, Right click on the tab for the specific assembly, then click **Export...**
@@ -78,7 +77,7 @@
 
 ---
 
-# Running an Analysis
+## Running an Analysis
 1. Click Analyze Ribbon > Analyze (Run)
 2. Give a name for ***.fem**
 3. Click Export
