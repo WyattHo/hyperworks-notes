@@ -7,7 +7,7 @@
 
 <p align="center">
   <img src="../img/midmesh/midmesh-automatic.png" width="800">
-  <img src="../img/midmesh/midmesh-result.png" width="800">
+  <img src="../img/midmesh/midmesh-result.png" width="300">
 <p>
 
 ---
@@ -31,9 +31,9 @@
 
 <p align="center">
   <img src="../img/midmesh/imprint-a.png" width="800">
-  <img src="../img/midmesh/imprint-a-result.png" width="800">
+  <img src="../img/midmesh/imprint-a-result.png" width="500">
   <img src="../img/midmesh/imprint-b.png" width="800">
-  <img src="../img/midmesh/imprint-b-result.png" width="800">
+  <img src="../img/midmesh/imprint-b-result.png" width="500">
 <p>
 
 ---
@@ -49,7 +49,7 @@
 <p align="center">
   <img src="../img/screws/rebuild-washer.png" width="800">
   <img src="../img/screws/rebuild-parameters.png" width="800">
-  <img src="../img/screws/rebuild-result.png" width="800">
+  <img src="../img/screws/rebuild-result.png" width="400">
 <p>
 
 ---
