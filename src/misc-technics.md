@@ -77,3 +77,14 @@
 <p>
 
 ---
+
+# Skip Element Quality Checks
+I've ran an analysis with tetra solid elements but failed the element quality check.
+However, those failed element seemed not too bad. The way to fix it is to close the check action.
+1. Right click on the Model Browser > Create > Cards > Param
+2. Activate **CHECKEL** item and set as **NO**
+
+<p align="center">
+  <img src="../img/skip-check/create-param.png" width="800">
+  <img src="../img/skip-check/checkel-no.png" width="800">
+<p>
