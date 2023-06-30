@@ -93,3 +93,30 @@
 
 Reference: 
   - <https://2022.help.altair.com/2022/hwsolvers/os/topics/solvers/os/run_options_os_r.htm>
+
+---
+
+# Modal Analysis
+
+## Algorithms
+In OptiStruct, normal modes analysis can be performed using one of two algorithms.
+
+| Algorithm | Card name | Pros | Cons |
+|-----------|-----------|------|------|
+| Lanczos | EIGRL | accurate | slow for large problems (millions of DOF, hundreds of modes) |
+| AMSES | EIGRA | much shorter run times | calculations are not exact (modal frequencies are still accurate to a few digits) |
+
+Reference: <https://help.altair.com/hwsolvers/os/topics/solvers/os/analysis_normal_modes_r.htm#analysis_normal_modes_r>
+
+---
+
+## Setting Procedures
+1. Create a **Load Step Input** and name it **Modal** conventionally. **EIGRL** or **EIGRA** should be choosed depending on the situation. The required parameters are shown as the following tables.
+2. Create a **Load Step** and select **Normal modes** as the analysis type. Name it **Normal Modes** conventionally. Select the existed SPC (Load Collector) and METHOD (Load Step Input).
+3. Create card **PARAM** and activate the output **EFFMASS** so that the effctive mass corresponding to each modes would be output at the `*.out` file.
+
+<p align="center">
+  <img src="../img/modal-analysis/procedures.png" width="800">
+  <img src="../img/modal-analysis/modal-parameters.png" width="500">
+  <img src="../img/modal-analysis/effective-mass-output.png" width="500">
+<p>
