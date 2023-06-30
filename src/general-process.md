@@ -75,3 +75,22 @@
   <img src="../img/set-analysis/create-output.png" width="800">
   <img src="../img/set-analysis/assign-strain-output.png" width="800">
 <p>
+
+---
+
+# Running an Analysis
+1. Click Analyze Ribbon > Analyze (Run)
+2. Give a name for ***.fem**
+3. Click Export
+4. **Compute Console** will pop up. Click **...**
+5. Set the options **-nt** (cpus), **-core** (control of used memory)
+6. Click Apply Selected
+7. Click Run
+
+<p align="center">
+  <img src="../img/run-analysis/export-fem.png" width="800">
+  <img src="../img/run-analysis/compute-console.png" width="400">
+<p>
+
+Reference: 
+  - <https://2022.help.altair.com/2022/hwsolvers/os/topics/solvers/os/run_options_os_r.htm>
