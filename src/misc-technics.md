@@ -41,6 +41,10 @@
 # Screw Settings
 
 ## Rebuild Elements for Washers
+1. Click Rebuild Ribbon > Edit parameters
+2. Activate "Add circumferential trim lines for washer"
+3. Input parameters for circular hole recognition
+4. Select the elements adjacent to the hole and rebuild
 
 <p align="center">
   <img src="../img/screws/rebuild-washer.png" width="800">
@@ -51,8 +55,11 @@
 ---
 
 ## Use RBE2 to Represent Screws
+1. Click Model Ribbon > Rigids
+2. Select the nodes for washer and hole to create RBE2 element
 
 <p align="center">
   <img src="../img/screws/rbe2-screw.png" width="800">
 <p>
 
+---
