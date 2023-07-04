@@ -120,3 +120,43 @@ Reference: <https://help.altair.com/hwsolvers/os/topics/solvers/os/analysis_norm
   <img src="../img/modal-analysis/modal-parameters.png" width="500">
   <img src="../img/modal-analysis/effective-mass-output.png" width="500">
 <p>
+
+---
+
+# Frequency Response Analysis (FRA)
+
+## Methods
+Two types of frequency response analysis:
+1. Direct frequency response analysis
+2. Modal frequency response analysis, with different solvers:
+   - Regular factorization (default)
+   - FASTFR (default)
+   - FFRS
+
+---
+
+## Requirements for Frequency Range
+- Accurate data from modal frequency response requires calculating modes at frequencies higher than the required excitation frequency. 
+- Recommended modal frequency range >= 1.5 to 2 times the excitation frequency range. 
+- For example, to get accurate modal frequency response predictions to 300 Hz, you should calculate the modes to >= 450Hz.
+
+---
+
+## Frequency Response Function (FRF)
+The term **FRF** is frequently mentioned in the Altair tutorial slides without any accompanying explanation. To address this lack of information, I have discovered a reference that provide the explanation about it.
+
+> The FRF of a system is often referred to as its "transfer function" but this term should strictly be reserved for the response of the system expressed in Laplace notation. 
+
+<p align="center">
+  <img src="../img/frf/frf-explanation.png" width="300">
+<p>
+
+---
+
+## Mind Map of FRF Analysis
+
+<p align="center">
+  <img src="../img/frf/mind-map.png" width="1000">
+<p>
+
+---
