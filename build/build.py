@@ -1,5 +1,6 @@
 import configparser
 import os
+from typing import List
 
 from PyHackMD import API
 
@@ -40,13 +41,35 @@ def link_repo_imgs(
     return {title: content}
 
 
+def create_or_update_hackmd(api: API, notes: List[dict], md_content: dict):
+    existed = False
+    title, content = md_content.items()[0]
+    for note in notes:
+        if note['title'] == title:
+            existed = True
+            note_id = note['id']
+            break
+
+    if existed:
+        api.update_note(
+            note_id=note_id,
+            content=content
+        )
+    else:
+        api.create_note(
+            title=title,
+            content=content
+        )
+
+
 def main() -> None:
+    api = API(get_hachmd_token())
+    notes = api.get_note_list()
+    
     md_paths = get_md_paths()
     for path in md_paths:
         md_content = link_repo_imgs(path)
-
-    # api = API(get_hachmd_token())
-    # notes = api.get_note_list()
+        create_or_update_hackmd(api, notes, md_content)
 
 
 if __name__ == '__main__':
