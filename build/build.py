@@ -36,7 +36,7 @@ def link_repo_imgs(
         else:
             lines_mod.append(line_ori)
 
-    title = os.path.basename(md_path_ori).capitalize().rstrip('.md')
+    title = lines_ori[0].lstrip('# ').rstrip('\n')
     content = ''.join(lines_mod)
     return {title: content}
 
