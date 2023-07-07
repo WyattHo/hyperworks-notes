@@ -56,14 +56,11 @@ def create_or_update_hackmd(api: API, notes: List[dict], md_content: dict):
             content=content
         )
     else:
-        note = api.create_note(
+        api.create_note(
             title=title,
-            readPermission='guest',
-            writePermission='owner'
-        )
-        api.update_note(
-            note_id=note['id'],
-            content=content
+            content=content,
+            read_permission='guest',
+            write_permission='owner'
         )
 
 

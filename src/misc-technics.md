@@ -1,6 +1,8 @@
-# Midmesh
+# Misc. Technics
 
-## Create Midmesh Automatically
+## Midmesh
+
+### Create Midmesh Automatically
 1. Click Midmesh Ribbon > Automatic
 2. Set **extraction size** (element size) and **defeature openings width**
 3. Sometimes there would be defects for the midmesh. Manually repair as follow will be helpful.
@@ -12,7 +14,7 @@
 
 ---
 
-## Repair Omitted Region
+### Repair Omitted Region
 1. Click Midmesh Ribbon > Create Midedge. Select nodes and guide to create a midmesh boundary.
 2. Click Midmesh Ribbon > Repair/Fill. Select the enclosed boundary to fill the region with mesh.
 
@@ -24,7 +26,7 @@
 
 ---
 
-## Repair Overfilled Region
+### Repair Overfilled Region
 1. Click Midmesh Ribbon > Edit Topology. Select line geometry to imprint the midmesh.
 2. Click the left button to switch different mode
 3. After imprint, Delete the elements within the hole manually
@@ -38,9 +40,9 @@
 
 ---
 
-# Screw Settings
+## Screw Settings
 
-## Rebuild Elements for Washers
+### Rebuild Elements for Washers
 1. Click Rebuild Ribbon > Edit parameters
 2. Activate "Add circumferential trim lines for washer"
 3. Input parameters for circular hole recognition
@@ -54,7 +56,7 @@
 
 ---
 
-## Use RBE2 to Represent Screws
+### Use RBE2 to Represent Screws
 1. Click Model Ribbon > Rigids
 2. Select the nodes for washer and hole to create RBE2 element
 
@@ -64,7 +66,7 @@
 
 ---
 
-# Create 2D Elements on Solids
+## Create 2D Elements on Solids
 1. Click Validate Ribbon > Faces
 2. Choose **elems** as the target entity
 3. Select the solid elements
@@ -78,7 +80,7 @@
 
 ---
 
-# Skip Element Quality Checks
+## Skip Element Quality Checks
 I've ran an analysis with tetra solid elements but failed the element quality check.
 However, those failed element seemed not too bad. The way to fix it is to close the check action.
 1. Right click on the Model Browser > Create > Cards > Param

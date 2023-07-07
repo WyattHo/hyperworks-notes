@@ -1,6 +1,8 @@
-# Terminologies about Product Data
+# Prerequisite
 
-## Product Lifecycle Management (PLM)
+## Terminologies about Product Data
+
+### Product Lifecycle Management (PLM)
 - The process of managing the entire lifecycle of a product, including:
   1. Conceive (specification, concept design)
   2. Design (detailed design, validation and analysis)
@@ -13,7 +15,7 @@
 
 ---
 
-## Product Data Management (PDM)
+### Product Data Management (PDM)
 - A business function within product lifecycle management (PLM)
 - PDM serves as a **central knowledge repository**. The information being stored and managed will include engineering data such as
   1. Computer-aided design (CAD) models
@@ -27,7 +29,7 @@
 
 ---
 
-## Metadata
+### Metadata
 - Metadata means data about data. Some examples include
   1. Time and date of creation
   2. Creator or author of the data
@@ -36,7 +38,7 @@
 
 ---
 
-## Bill of Materials (BOM)
+### Bill of Materials (BOM)
 - BOM is a list of the raw materials, sub-assemblies, intermediate assemblies, sub-components, parts, and the quantities of each needed to manufacture an end product
 
 <p align="center">
@@ -45,7 +47,7 @@
 
 ---
 
-## References:
+### References:
   - <https://en.wikipedia.org/wiki/Product_lifecycle>
   - <https://www.filetypeadvisor.com/extension/plmxml>
   - <https://en.wikipedia.org/wiki/Product_data_management>
@@ -54,9 +56,9 @@
 
 ---
 
-# Model Hierarchy
+## Model Hierarchy
 
-## CAD Hierarchy
+### CAD Hierarchy
 - Feature
   - The operations that are used to build **parts**, such as 
     - Extrude
@@ -77,7 +79,7 @@
 
 ---
 
-## CAE Hierarchy
+### CAE Hierarchy
 - Components
   - Components collect and organize points, lines, surfaces, solids, elements and connectors
   - A component can be assigned **a property or material**, that assignment is applied to all elements within that component
@@ -96,7 +98,7 @@
 
 ---
 
-## References:
+### References:
   - <https://superdope.onshape.com/help/Content/Glossary/glossary.htm?tocpath=_____22>
   - <https://help.altair.com/hwdesktop/hwx/topics/pre_processing/entities/components_r.htm>
   - <https://help.altair.com/hwdesktop/hwx/topics/pre_processing/model_build_and_assembly/part_assemblies_and_parts_organize_t.htm>
