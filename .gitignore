@@ -1,1 +1,5 @@
 ~*
+*.ini
+.vscode
+/build/*.md
+/env

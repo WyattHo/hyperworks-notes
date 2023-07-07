@@ -1,24 +1,21 @@
-<script
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
-  type="text/javascript">
-</script>
+# Analysis Process
 
-# Schema of General Process
+## Schema of General Process
 
-## Process in Abaqus
+### Process in Abaqus
 <p align="center">
   <img src="../img/process-schema/process-abaqus.png" width="1200">
 <p>
 
-## Process in Abaqus vs Process in HyperWorks
+### Process in Abaqus vs Process in HyperWorks
 <p align="center">
   <img src="../img/process-schema/process-abaqus-vs-hyperworks.png" width="1200">
 <p>
 
 ---
-# Step by Step
+## Step by Step
 
-## Import the model from Onshape to HyperWorks
+### Import the model from Onshape to HyperWorks
 1. In **Onshape**, Right click on the tab for the specific assembly, then click **Export...**
 2. Select **PARASOLID**
 3. Click **Export**
@@ -35,7 +32,7 @@
 
 ---
 
-## The Basic of Creating Boundary Conditions
+### The Basic of Creating Boundary Conditions
 1. Right click on the Model Browser > Create > Load Collector
 2. Naming **SPC** for this Load Collector conventionally
 3. Click Model Ribbon > Rigids. To create RBE2 for the nodes with the same BC
@@ -51,7 +48,7 @@
 
 ---
 
-## The Basic of Creating Loads
+### The Basic of Creating Loads
 1. Right click on the Model Browser > Create > Load Collector
 2. Naming **Load** for this Load Collector conventionally
 3. Click Analyze Ribbon > Loads (Pressures). To create pressure on the specific entities with specific magnitude.
@@ -66,7 +63,7 @@
 
 ---
 
-## The Basic of Setting an Analysis
+### The Basic of Setting an Analysis
 1. Right click on the Model Browser > Create > Load Step, then a **subcase** would be created.
 2. Naming the subcae and assign its **analysis type**, **BCs** and **loads**.
 3. Right click on the Model Browser > Create > Cards > Output, then a **GLOBAL_OUTPUT_REQUEST** card would be created.
@@ -82,7 +79,7 @@
 
 ---
 
-## Running an Analysis
+### Running an Analysis
 1. Click Analyze Ribbon > Analyze (Run)
 2. Give a name for ***.fem**
 3. Click Export
@@ -101,9 +98,9 @@ Reference:
 
 ---
 
-# Modal Analysis
+## Modal Analysis
 
-## Algorithms
+### Algorithms
 In OptiStruct, normal modes analysis can be performed using one of two algorithms.
 
 | Algorithm | Card name | Pros | Cons |
@@ -115,7 +112,7 @@ Reference: <https://help.altair.com/hwsolvers/os/topics/solvers/os/analysis_norm
 
 ---
 
-## Setting Procedures
+### Setting Procedures
 1. Create a **Load Step Input** and name it **Modal** conventionally. **EIGRL** or **EIGRA** should be choosed depending on the situation. The required parameters are shown as the following tables.
 2. Create a **Load Step** and select **Normal modes** as the analysis type. Name it **Normal Modes** conventionally. Select the existed SPC (Load Collector) and METHOD (Load Step Input).
 3. Create card **PARAM** and activate the output **EFFMASS** so that the effctive mass corresponding to each modes would be output at the `*.out` file.
@@ -128,9 +125,9 @@ Reference: <https://help.altair.com/hwsolvers/os/topics/solvers/os/analysis_norm
 
 ---
 
-# Frequency Response Analysis (FRA)
+## Frequency Response Analysis (FRA)
 
-## Methods
+### Methods
 Two types of frequency response analysis:
 1. Direct frequency response analysis
 2. Modal frequency response analysis, with different solvers:
@@ -140,14 +137,14 @@ Two types of frequency response analysis:
 
 ---
 
-## Requirements for Frequency Range
+### Requirements for Frequency Range
 - Accurate data from modal frequency response requires calculating modes at frequencies higher than the required excitation frequency. 
 - Recommended modal frequency range >= 1.5 to 2 times the excitation frequency range. 
 - For example, to get accurate modal frequency response predictions to 300 Hz, you should calculate the modes to >= 450Hz.
 
 ---
 
-## Frequency Response Function (FRF)
+### Frequency Response Function (FRF)
 The term **FRF** is frequently mentioned in the Altair tutorial slides without any accompanying explanation. To address this lack of information, I have discovered a reference that provide the explanation about it.
 
 > The FRF of a system is often referred to as its "transfer function" but this term should strictly be reserved for the response of the system expressed in Laplace notation. 
@@ -158,7 +155,7 @@ The term **FRF** is frequently mentioned in the Altair tutorial slides without a
 
 ---
 
-## Mind Map of FRF Analysis
+### Mind Map of FRF Analysis
 
 <p align="center">
   <img src="../img/frf/mind-map.png" width="1000">
@@ -166,19 +163,19 @@ The term **FRF** is frequently mentioned in the Altair tutorial slides without a
 
 ---
 
-## SPCD
+### SPCD
 - The `SPCD` card defines an enforced displacement, velocity or acceleration.
 - To create Loads/SPCD, click Analyze ribbon > Constraints
 
 ---
 
-## DAREA
+### DAREA
 - The `DAREA` card represents a force excitation loading.
 - To create Loads/DAREA, click Analyze ribbon > Constraints
 
 ---
 
-## RLOAD
+### RLOAD
 - RLOAD1
   - $P(f) = A[C(f) + iD(f)]e^{i(\theta-2\pi f\tau)}$
   - A: EXCITEID
@@ -195,7 +192,7 @@ The term **FRF** is frequently mentioned in the Altair tutorial slides without a
 
 ---
 
-## TABLED
+### TABLED
 $$
 y = \left\{
   \begin{aligned}
@@ -223,7 +220,7 @@ $$
 
 ---
 
-## FREQi
+### FREQi
 
 <p align="center">
   <img src="../img/frf/freq1.png" width="500">
