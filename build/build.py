@@ -35,7 +35,7 @@ def link_repo_imgs(
             lines_mod.append(line_mod)
         else:
             lines_mod.append(line_ori)
-    
+
     title = os.path.basename(md_path_ori).capitalize().rstrip('.md')
     content = ''.join(lines_mod)
     return {title: content}
@@ -43,7 +43,7 @@ def link_repo_imgs(
 
 def create_or_update_hackmd(api: API, notes: List[dict], md_content: dict):
     existed = False
-    title, content = md_content.items()[0]
+    title, content = list(md_content.items())[0]
     for note in notes:
         if note['title'] == title:
             existed = True
@@ -56,8 +56,13 @@ def create_or_update_hackmd(api: API, notes: List[dict], md_content: dict):
             content=content
         )
     else:
-        api.create_note(
+        note = api.create_note(
             title=title,
+            readPermission='guest',
+            writePermission='owner'
+        )
+        api.update_note(
+            note_id=note['id'],
             content=content
         )
 
@@ -65,7 +70,7 @@ def create_or_update_hackmd(api: API, notes: List[dict], md_content: dict):
 def main() -> None:
     api = API(get_hachmd_token())
     notes = api.get_note_list()
-    
+
     md_paths = get_md_paths()
     for path in md_paths:
         md_content = link_repo_imgs(path)
