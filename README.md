@@ -4,7 +4,7 @@
 I am using markdown format here to organize various notes on [Altair HyperWorks](https://altair.com/hyperworks) that I have learned. 
 
 ## How does it work?
-The original content of these notes is located in the `src` folder, and the images used are stored in the `img` folder. Additionally, whenever I update the markdown content and push it to GitHub, the content is automatically transferred to the HackMD platform using a **GitHub workflow** that I have set up. 
+The original content of these notes is located in the `src` folder, and the images used are stored in the `img` folder. Additionally, whenever I update the markdown content and push it to GitHub, the content is automatically transferred to the HackMD platform using a **GitHub workflow** that I have set up with [HackMD API](https://hackmd.io/@hackmd-api/developer-portal/https%3A%2F%2Fhackmd.io%2F%40hackmd-api%2FrkoVeBXkq?utm_source=settings-api&utm_medium=inline-cta). 
 
 ## Contents
 |Title|Description|HackMd Link|
