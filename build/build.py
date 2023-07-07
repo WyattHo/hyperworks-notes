@@ -5,13 +5,13 @@ from typing import List
 from PyHackMD import API
 
 
-def get_hachmd_token(config_path: str = '.\\build\\config.ini') -> str:
+def get_hachmd_token(config_path: str = './build/config.ini') -> str:
     config = configparser.ConfigParser()
     config.read(config_path)
     return config['hackmd']['token']
 
 
-def get_md_paths(src_path: str = '.\\src') -> list:
+def get_md_paths(src_path: str = './src') -> list:
     md_paths = [
         os.path.join(src_path, path)
         for path in os.listdir(src_path) if path.endswith('.md')
