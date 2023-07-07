@@ -1,4 +1,4 @@
-# Misc. Technics
+# Misc. Techniques
 
 ## Midmesh
 
